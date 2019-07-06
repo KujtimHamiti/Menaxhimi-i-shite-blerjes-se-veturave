@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AccountSetting"
+    >
+
+    <TextView
+        android:id="@+id/tvAccountSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Account Setting"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAccountSetting"
+        android:layout_centerHorizontal="true"
+        android:text="CurrentUser" />
+
+    <LinearLayout
+        android:id="@+id/activity_accountSetting_layout_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCurrentUserEmail"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/btnMyListing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCurrentUserEmail"
+            android:background="@mipmap/ic_account_listing"/>
+
+        <ImageView
+            android:id="@+id/btnChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMyListing"
+            android:background="@mipmap/ic_change_password"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_accountSetting_layout_row1"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btnDeleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_accountSetting_layout_row1"
+            android:src="@mipmap/ic_delete_account"
+             />
+
+           </LinearLayout>
+
+</RelativeLayout>

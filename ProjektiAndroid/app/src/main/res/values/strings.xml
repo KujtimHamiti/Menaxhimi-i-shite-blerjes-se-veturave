@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vetura</string>
+    <string name="prompt">Zgjedh Llojin</string>
+    <string-array name="lloji_array">
+        <item>Vetura</item>
+        <item>Motor</item>
+        <item>Pjese</item>
+    </string-array>
+</resources>

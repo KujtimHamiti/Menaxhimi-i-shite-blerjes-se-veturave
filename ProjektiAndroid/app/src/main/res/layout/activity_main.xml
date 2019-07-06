@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wollpaperrrrr"
+    tools:context=".activities.MainActivity"
+    >
+
+    <TableLayout
+        android:id="@+id/tl_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        >
+
+
+        <TableRow>
+
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:hint="search"
+                android:textColorHint="#E9E8E8"
+                android:textColor="#242419"/>
+
+            <ImageView
+                android:id="@+id/ivClickSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_search_button"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/tl_search"
+        android:layout_marginTop="-1dp">
+
+
+        <TableRow android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="138dp"
+                android:background="@drawable/button_background"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="134dp"
+                android:background="@drawable/button_background"
+                android:onClick="Regjistrohu"
+                android:padding="10dp"
+                android:text="Regjistrohu"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnKycu"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_background"
+                android:onClick="Kycu"
+                android:text="Kycu" />
+
+        </TableRow>
+
+        <ImageView
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:alpha="0"
+            android:onClick="KerkoVetura"
+            android:src="@mipmap/ic_search_sport_car" />
+
+        <ImageView
+            android:id="@+id/id2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:alpha="0"
+            android:onClick="KerkoMotor"
+            android:src="@mipmap/ic_search_motor" />
+
+        <ImageView
+            android:id="@+id/id3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:alpha="0"
+            android:onClick="KerkoPjese"
+            android:src="@mipmap/ic_search_parts" />
+
+        <Button
+            android:id="@+id/buttonii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45dp"
+            android:alpha="1"
+            android:background="@drawable/button_background"
+            android:onClick="KrijoShpallje"
+            android:text="Krijo Shpallje"
+            android:textColor="#FFFFFF" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/tl_main"
+        android:layout_marginTop="30dp">
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tl_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/tvCurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tl_icons"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_account_setting"
+        android:layout_above="@id/tvCurrentUser"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        />
+
+
+
+
+</RelativeLayout>

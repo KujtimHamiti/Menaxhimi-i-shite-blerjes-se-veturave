@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112748875284",
+    "firebase_url": "https://vetura-a5260.firebaseio.com",
+    "project_id": "vetura-a5260",
+    "storage_bucket": "vetura-a5260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112748875284:android:b584667a0e541b9f",
+        "android_client_info": {
+          "package_name": "com.androidks.vetura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112748875284-0n75k7veepv1htueodg2o6p52bfsbaj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidks.vetura",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "112748875284-r6jg8iv4374ac9bulcjdqiukhgun2v43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsyLBRgNay5-8HrofCRqpqCBidLmRLxSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112748875284-r6jg8iv4374ac9bulcjdqiukhgun2v43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

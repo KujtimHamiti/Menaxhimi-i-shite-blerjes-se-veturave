@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetajeVetura"
+    android:orientation="vertical"
+    android:background="@drawable/bacgroundd">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDetajeTitulli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/bardhe"
+            android:text="Titulli"
+            />
+
+
+    <ImageView
+        android:id="@+id/ivDetajeFoto"
+        android:layout_width="145dp"
+        android:layout_height="85dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ABABAB"
+            android:text="Te dhenat e Vetures"
+            android:textSize="17dp"
+            android:textColor="#FAFAFA"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DEDEDE"
+        android:layout_marginHorizontal="25dp"
+        android:paddingVertical="4dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Viti"
+            />
+        <TextView
+            android:id="@+id/tvDetajeViti"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="*????*"
+            android:textAlignment="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Kilometrazha"
+                />
+            <TextView
+                android:id="@+id/tvDetajeKilometrazha"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="*????*"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ABABAB"
+        android:text="Kontakti"
+        android:textSize="17dp"
+        android:textColor="#FAFAFA"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DEDEDE"
+        android:layout_marginHorizontal="25dp"
+        android:paddingVertical="4dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Tel"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/tvDetajeTel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="*????*"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
